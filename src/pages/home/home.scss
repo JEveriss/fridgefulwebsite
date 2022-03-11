@@ -1,0 +1,110 @@
+@import "../../mixins.scss";
+
+.home {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.2rem;
+  margin: 0 2rem;
+  @include mobile;
+}
+@media (max-width: 480px) {
+  .logo-name {
+    width: 300px;
+  }
+}
+
+.logo-name {
+  max-width: 25rem;
+}
+
+.logobox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0.5rem 0 0 0;
+  @media (max-width: 480px) {
+    margin: 0;
+    width: 390px;
+    flex-direction: column;
+  }
+}
+
+.title {
+  font-weight: 700;
+  font-size: 4rem;
+  margin: 0;
+  text-align: center;
+  @media (max-width: 400px) {
+    margin: 1rem 0 0 0;
+  }
+}
+
+.icon {
+  max-width: 3rem;
+  transition: width 8s;
+}
+
+.comments1,
+.comments2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  border-radius: 100px;
+
+  p {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    width: 100%;
+    color: #000;
+  }
+}
+
+@media (max-width: 400px) {
+  .comments1 {
+    display: none;
+  }
+  .comment {
+    padding: 0;
+  }
+}
+.comment {
+  display: flex;
+  flex-direction: row;
+  font-weight: 400;
+  padding: 2rem 0;
+  @media (max-width: 400px) {
+    padding: 0;
+  }
+}
+
+.tick {
+  width: 5.5rem;
+  z-index: -1;
+  position: absolute;
+  opacity: 80%;
+  padding: 0 0.5rem 0 0;
+}
+
+.tag-line {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  font-weight: 500;
+  color: #292929;
+  margin: 0;
+  font-size: 2.5rem;
+  font-style: italic;
+  @media (max-width: 400px) {
+    font-size: 1.5rem;
+    display: block;
+  }
+}
+
+span {
+  color: #2ecc71;
+  margin: 0 0.5rem 0 0;
+}

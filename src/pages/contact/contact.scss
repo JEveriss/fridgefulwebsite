@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap");
+@import "../../mixins.scss";
+
+.contact {
+  height: 100vh;
+  margin: 0 2rem;
+  @include mobile;
+  padding-top: 2rem;
+}
+
+.about {
+  height: 100vh;
+  @include font-types;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  @include mobile;
+}
+
+.profile-container img {
+  max-width: 7rem;
+  border-radius: 50rem;
+  filter: grayscale(100%);
+  transition: 0.2s;
+  flex-wrap: wrap;
+}
+
+.profile-container img:hover {
+  filter: grayscale(0%);
+}
+
+.profile {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0.2rem;
+  width: 32%;
+  a {
+    display: contents;
+  }
+}
+
+@media (max-width: 400px) {
+  h2 {
+    margin: 0;
+  }
+}
