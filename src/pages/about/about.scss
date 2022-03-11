@@ -6,24 +6,34 @@
   height: 100vh;
   margin: 0 2rem;
   padding-top: 2rem;
+  max-width: 1300px;
   // @include font-types;
 }
 
 .aboutbox {
   display: flex;
-
   flex-direction: row;
   justify-content: space-evenly;
-  align-items: center;
+
+  margin: 0 0 3rem 0;
+  h2 {
+    margin: 0;
+  }
 }
 
 .qrcode {
-  width: 10%;
+  width: 8rem;
 }
 
 .textbox {
   text-align: center;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   align-items: center;
+  width: 70%;
+}
+
+.textbox p {
+  margin: 0;
 }

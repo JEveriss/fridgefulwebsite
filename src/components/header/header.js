@@ -10,11 +10,11 @@ export default function Header() {
       </Link>
 
       <Link to="about" spy={true} smooth={true}>
-        <h3> About </h3>
+        <h3>About</h3>
       </Link>
 
       <Link to="contact" spy={true} smooth={true}>
-        <h3>Contact </h3>
+        <h3>The Team</h3>
       </Link>
     </nav>
   );

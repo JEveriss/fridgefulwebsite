@@ -6,6 +6,7 @@
   margin: 0 2rem;
   @include mobile;
   padding-top: 2rem;
+  max-width: 1300px;
 }
 
 .about {
@@ -49,5 +50,8 @@
 @media (max-width: 400px) {
   h2 {
     margin: 0;
+  }
+  .profile {
+    width: 100%;
   }
 }
