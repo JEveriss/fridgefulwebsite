@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap");
+@import "../../mixins.scss";
+
+.about {
+  @include mobile;
+  height: 100vh;
+  margin: 0 2rem;
+  padding-top: 2rem;
+  // @include font-types;
+}
+
+.aboutbox {
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.qrcode {
+  width: 10%;
+}
+
+.textbox {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

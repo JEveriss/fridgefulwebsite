@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap");
+
+@mixin font-types {
+  font-weight: 300;
+  color: #5e5f5e;
+  font-family: "Open Sans", sans-serif;
+}
+@mixin mobile {
+  @media (max-width: 480px) {
+    margin: 0 0.2rem;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+  }
+}
+
+

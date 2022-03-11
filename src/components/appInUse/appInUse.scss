@@ -1,0 +1,18 @@
+.image-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-a,
+.image-b {
+  max-height: 16rem;
+  border-radius: 15px;
+  border: #292929 solid 2px;
+  margin: 0 1rem;
+}
+
+@media (max-width: 400px) {
+  .image-b {
+    display: none;
+  }
+}
