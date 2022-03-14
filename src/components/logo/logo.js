@@ -1,5 +1,5 @@
-import background from  '../../assets/rotating-logo/fridgeful-background.png' ;
-import fridge from '../../assets/rotating-logo/fridgeful-fridge.png';
+import background from "../../assets/rotating-logo/fridgeful-background.png";
+import fridge from "../../assets/rotating-logo/fridgeful-fridge.png";
 import "./logo.scss";
 
 function Logo() {
@@ -8,7 +8,9 @@ function Logo() {
       <div>
         <img src={background} className="logo-background" alt="logo" />
       </div>
-      <img src={fridge} className="logo-fridge" alt="logo" />
+      <a href="https://be-fridgeful.netlify.app/">
+        <img src={fridge} className="logo-fridge" alt="logo" />
+      </a>
     </div>
   );
 }
