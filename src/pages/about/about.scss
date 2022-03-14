@@ -4,7 +4,7 @@
 .about {
   @include mobile;
   height: 100vh;
-  margin: 0 2rem;
+  margin: 0 auto;
   padding-top: 2rem;
   max-width: 1300px;
   // @include font-types;

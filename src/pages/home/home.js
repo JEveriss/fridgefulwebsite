@@ -21,7 +21,7 @@ export default function Home() {
             <p>
               <img className="tick" src={tick} alt="tick" />
               <img className="icon" src={radish} alt="radish" />
-              Keep on top of what's in your frige
+              Keep on top of what's in your fridge
             </p>
           </div>
           <div className="comment">
@@ -58,7 +58,7 @@ export default function Home() {
           <span>Cook</span> Fridgefully
         </h1>
         <h1 className="tag-line">
-          <span>Eat</span> everything
+          <span>Eat</span> it all
         </h1>{" "}
       </h1>
     </div>
