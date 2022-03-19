@@ -3,8 +3,8 @@ const team = [
     id: 1,
     name: "Antonio",
     words:
-      "Antonio was born and raised. Since then he has been accredited with creating the Latin language",
-    image: require ("../../assets/antonio.jpeg"),
+      "Antiono already has a portfolio that will rival most established fron end developers despite only being coding for a year. A natural front end developer",
+    image: require("../../assets/antonio.jpeg"),
     link: "https://github.com/ajsevillano",
   },
 
@@ -12,8 +12,8 @@ const team = [
     id: 2,
     name: "Sunny",
     words:
-      "Sunny once lost alegal battle with Starbucks in which she accused the coffee giant of stealing her recipe for the 'flat white'.",
-    image: require ("../../assets/sunny.jpeg"),
+      "Sunny is a optimisitc, forward thinking full stack developer. Her ability to analyse and persist with a problem means it deosn't stay unsolved for very long.",
+    image: require("../../assets/sunny.jpeg"),
     link: "https://github.com/Hyosssssun",
   },
 
@@ -21,8 +21,8 @@ const team = [
     id: 3,
     name: "Ciprian",
     words:
-      "Ciprian (chip-ree-un) was key in selecting many of Romania's entries to the Eurovision song contest.",
-    image: require ("../../assets/ciprian.jpg"),
+      "Ciprian loves a challenge and will frequently be found helping others with their projects while he has multiple on the go already - a full stack fanatic.",
+    image: require("../../assets/ciprian.jpg"),
     link: "https://github.com/21ciprian",
   },
 
@@ -30,8 +30,8 @@ const team = [
     id: 4,
     name: "Victoria",
     words:
-      "Victoria has spent most of her adult life caring for stray children in central Madrid.",
-    image: require ("../../assets/victoria.png"),
+      "Victoria is equally as proficient on the front end as she is the back end. She also posses the amazing ability to extract the best from those she works with.",
+    image: require("../../assets/victoria.png"),
     link: "https://github.com/Victoriam97",
   },
 
@@ -39,8 +39,8 @@ const team = [
     id: 5,
     name: "Maxi",
     words:
-      "Maxi is said to be between 18 and 104 years old. However there is little evidence to prove either",
-    image: require ("../../assets/maxi.png"),
+      "Maxi is one of the most dilligent back end developers out there. Although they are few and far between, he solves errors and bugs as soon as they are spotted.",
+    image: require("../../assets/maxi.png"),
     link: "https://github.com/maximilianosinopoli",
   },
 
@@ -48,10 +48,9 @@ const team = [
     id: 6,
     name: "Jacques",
     words:
-      "Jacques - noun: someone or something that is marked by consistently or thoroughly bad quality, performance, etc.",
-    image: require ("../../assets/jacques.jpg"),
+      "Jacques a passionate and dedicated front end developer that has the perseverance to tackle almost any project.",
+    image: require("../../assets/jacques.jpg"),
     link: "https://github.com/JEveriss",
-
   },
 ];
 
